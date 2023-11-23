@@ -1,0 +1,31 @@
+body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .quadro {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 60%;
+      width: 20%;
+      border: 1px solid black;
+      padding: 20px;
+    }
+
+    .texto {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .botao {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    button {
+      height: 25px;
+      width: 35%;
+}
